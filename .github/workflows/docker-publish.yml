@@ -34,9 +34,6 @@ jobs:
       id-token: write
 
     steps:
-      - name: OSSF Scorecard action
-        uses: ossf/scorecard-action@v2.4.0
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
